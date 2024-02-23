@@ -1,11 +1,32 @@
 body{
-    background: #9dc9ff;
+    background: #000000;
 }
 .encabezado{
-    color: #0A3871;
+    color: rgb(255, 255, 255);
+    text-shadow: #00c9fc81 .3rem .3rem .5rem;
     font-size: 2rem;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
-    padding: 1rem 0 1rem 0;
+    flex-wrap: wrap;
+    min-width: 250px;
+    margin: 2rem;
+}
+.logoTitulo{
+    width: 3rem;
+    height: 3rem;
+    margin: auto;
+}
+.titulo{
+    text-align: center;
+    margin: auto;
+    display: grid;
+}
+.oracle, a{
+    text-align: center;
+    margin: auto;
+    font-size: 1.3rem;
+    color: rgb(59, 160, 243);
+    text-decoration: none;
+}
+.oracle, a:hover{
+    color: aqua;
 }
