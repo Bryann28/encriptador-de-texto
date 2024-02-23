@@ -1,5 +1,7 @@
+body{
+    background: #9dc9ff;
+}
 .encabezado{
-    background: linear-gradient(90deg, #9dc9ff, #ffffff,#9dc9ff);
     color: #0A3871;
     font-size: 2rem;
     font-weight: bold;
