@@ -1,0 +1,9 @@
+.encabezado{
+    background: linear-gradient(90deg, #9dc9ff, #ffffff,#9dc9ff);
+    color: #0A3871;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 1rem 0;
+}
