@@ -1,5 +1,5 @@
 body{
-    background: #000000;
+    background: linear-gradient(to right, #000000, #05091a, #000000);
 }
 .encabezado{
     color: rgb(255, 255, 255);
