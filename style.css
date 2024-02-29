@@ -144,7 +144,7 @@ body{
     flex-wrap: wrap;
 }
 .copiar{
-    color: white;
+    color: #ffffff;
     background: linear-gradient(to right, #0e0f1b, #15213b, #0e0f1b);
     border: solid #15213b;
     width: 60%;
@@ -156,4 +156,14 @@ body{
     scale: 1.1;
     transition: 0.7s all;
     cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 3rem 0 2rem 0;
+    text-shadow: #00c9fc81 -.3rem -.3rem .5rem;
 }
