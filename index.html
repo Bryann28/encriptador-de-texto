@@ -19,15 +19,19 @@
     </header>
     <main class="contenido">
         <div class="divMensaje">
-            <p>Tu mensaje... &#x1f5ed</p>
-            <textarea class="cajaMensaje" id="mensaje" cols="60" rows="30" placeholder="Escribe tu mensaje aqui..."></textarea>
-            <p>&#x24d8 Solo letras minusculas y sin acentos</p>
-            <button>Encriptar</button><button>Desencriptar</button>
+            <p>Tu mensaje... <strong>&#x1f5ed</strong></p>
+            <textarea class="cajaMensaje" id="mensaje" cols="45" rows="30" placeholder="Escribe tu mensaje aqui..."></textarea>
+            <p class="informacion"><strong>&#x24d8</strong> Solo letras minusculas y sin acentos</p>
+            <div class="divBotones">
+                <button class="encriptar">Encriptar</button><button class="desencriptar">Desencriptar</button>
+            </div>
         </div>
         <div class="divResultado">
-            <p>&#x27a4 Este es el resultado de tu mensaje</p>
-            <textarea name="resultado" id="resultado" cols="60" rows="30" placeholder="El mensaje encriptado o desencriptado aparecerá aquí..."></textarea><br>
-            <button>Copiar</button>
+            <p><strong>&#x27a4</strong> Este es el resultado de tu mensaje</p>
+            <textarea class="cajaResultado" name="resultado" id="resultado" cols="45" rows="30" placeholder="El mensaje encriptado o desencriptado aparecerá aquí..."></textarea><br>
+            <div class="divCopiar">
+                <button class="copiar">Copiar</button>
+            </div>
         </div>
     </main>
     <footer></footer>

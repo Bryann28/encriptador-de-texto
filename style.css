@@ -1,19 +1,22 @@
 body{
-    background: linear-gradient(to right, #000000, #05091a, #000000);
+    background: linear-gradient(to right, #070707, #111111, #070707);
 }
 .encabezado{
-    color: rgb(255, 255, 255);
+    width: 100%;
+    color: #fff1dc;
     text-shadow: #00c9fc81 .3rem .3rem .5rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     flex-wrap: wrap;
+    align-items: center;
     min-width: 250px;
-    margin: 2rem;
+    margin: 3rem 0 3rem 0;
 }
 .logoTitulo{
     width: 4rem;
     height: 4rem;
     margin: auto;
+    filter: drop-shadow(0 0 0.5rem #00c9fc81);
 }
 .titulo{
     text-align: center;
@@ -24,9 +27,133 @@ body{
     text-align: center;
     margin: auto;
     font-size: 1.3rem;
-    color: rgb(59, 160, 243);
+    color: #3ba0f3;
     text-decoration: none;
 }
 .oracle, a:hover{
-    color: aqua;
+    color: #00d9ff;
+}
+
+.contenido{
+    font-size: 3vh;
+    color: #f7f1e8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    margin: auto;
+    min-width: 200px;
+    max-width: 90%;
+    resize: none;
+}
+.divMensaje{
+    min-width: 250px;
+    width: auto;
+    border: 5px solid transparent;
+    border-color: #75eee875;
+    background-color: #36b8bd1a;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+.divMensaje strong{
+    color: #9ffd92;
+}
+.cajaMensaje{
+    resize: none;
+    display: block;
+    max-width: 100%;
+    background: linear-gradient(to right, #0a0a0a, #111111, #0a0a0a);
+    border: solid 2px #0a0a0a;
+    border-radius: 10px;
+    color: blanchedalmond;
+    margin: 0.5rem 0;
+    font-size: 2vh;
+}
+.informacion{
+    font-size: 2.5vh;
+}
+.informacion strong{
+    color: #9ffd92;
+}
+.divResultado{
+    min-width: 250px;
+    width: auto;
+    border: 5px solid transparent;
+    border-color: #105eb875;
+    background: #062f5e75;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.divResultado strong{
+    color: #5dc9ba;
+}
+.cajaResultado{
+    resize: none;
+    display: block;
+    max-width: 100%;
+    background: linear-gradient(to right, #0a0a0a, #111111, #0a0a0a);
+    border: solid 2px #0a0a0a;
+    border-radius: 10px;
+    color: blanchedalmond;
+    margin: 0.5rem 0;
+    font-size: 2vh;
+}
+.divBotones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 1rem 0 0 0;
+}
+.encriptar{
+    color: white;
+    background: linear-gradient(to right, #141b0e, #2d3b15, #141b0e);
+    border: solid #141b0e;
+    width: 35%;
+    height: 3rem;
+    font-size: 2.5vh;
+    border-radius: 10px;
+}
+.encriptar:hover{
+    scale: 1.1;
+    transition: 0.7s all;
+    cursor: pointer;
+    
+}
+.desencriptar{
+    color: white;
+    background: linear-gradient(to right, #141b0e, #2d3b15, #141b0e);
+    border: solid #2d3b15;
+    width: 45%;
+    height: 3rem;
+    font-size: 2.5vh;
+    border-radius: 10px;
+}
+.desencriptar:hover{
+    scale: 1.1;
+    transition: 0.7s all;
+    cursor: pointer;
+}
+.divCopiar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.copiar{
+    color: white;
+    background: linear-gradient(to right, #0e0f1b, #15213b, #0e0f1b);
+    border: solid #15213b;
+    width: 60%;
+    height: 3.5rem;
+    font-size: 2.5vh;
+    border-radius: 10px;
+}
+.copiar:hover{
+    scale: 1.1;
+    transition: 0.7s all;
+    cursor: pointer;
 }
