@@ -85,6 +85,7 @@ body{
     background: #062f5e75;
     border-radius: 1rem;
     padding: 1rem;
+    text-align: center;
 }
 .divResultado strong{
     color: #5dc9ba;
