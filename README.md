@@ -1,4 +1,4 @@
-<h1><strong>CriptoGuardian es una Aplicación Web que permite encriptar texto.</strong></h1>
+<h1><strong>CriptoGuardian Alura-One Challenges: Encriptador</strong></h1>
 
 - Pagina desarrollada con tecnología HTML, CSS y JavaScript, cuya función es encriptar y desencriptar un texto, siguiendo una serie de reglas que se tienen que cumplir.
 
